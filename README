@@ -1,0 +1,38 @@
+Conway
+©1998  Alex Chamberlain
+chambera@cs.pdx.edu
+http://www.cs.pdx.edu/~chambera
+
+This is another implementation of Conway's Game of Life (a simple but fascinating artificial-life simulation).  Conway differs from the "Life" program included with BeOS in two ways: first, it runs in a window, not full-screen, so you can keep it open in the background; and second, it provides a "delta" display showing how the board has 
+changed over time. I think the combination of the current board and delta displays is kind of fun to watch (even hypnotic if you're in the mood).
+
+The source is provided under the GPL (GNU General Public License).  I'd be interested in seeing any improvements to the program—I know my algorithms are pretty naive.  
+
+Revision History
+
+0.9a—May 5, 1998—Priority problem fixed (the computation thread is
+                     no longer set to higher priority than the
+                     app_server).  Intel executable added.
+0.9—April 23, 1998—First public version.
+
+
+No Warranty
+
+THERE IS NO WARRANTY FOR THIS PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE SOFTWARE "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL
+NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR
+REDISTRIBUTE THE SOFTWARE AS PERMITTED IN THE LICENSING CONDITIONS,
+BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL
+OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE
+PROGRAMS (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED
+INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE
+PROGRAMS TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER
+PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
