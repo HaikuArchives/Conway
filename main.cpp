@@ -17,6 +17,7 @@
 */
 
 
+#include <Bitmap.h>
 #include <new>
 #include "main.h"
 #include "application.h"

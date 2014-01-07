@@ -15,8 +15,9 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
+#ifndef __CONWAYWINDOW_H
+#define __CONWAYWINDOW_H
 
-#pragma once
 
 #include <Window.h>
 
@@ -28,3 +29,4 @@ class ConwayWindow : public BWindow
 		virtual bool QuitRequested();
 };
 
+#endif /* __CONWAYWINDOW_H */

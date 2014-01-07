@@ -17,10 +17,6 @@
 */
 
 
-
-#pragma once
-
-
 #include "ConwayWindow.h"
 #include "BoardView.h"
 #include "DeltaView.h"

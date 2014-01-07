@@ -22,6 +22,11 @@
 #include "application.h"
 #include "math.h"
 
+#include <Alert.h>
+#include <Bitmap.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 
 /*
 	ConwayApplication()

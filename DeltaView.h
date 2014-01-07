@@ -15,10 +15,9 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
+#ifndef __DELTAVIEW_H
+#define __DELTAVIEW_H
 
-
-
-#pragma once
 
 #include <View.h>
 
@@ -28,3 +27,4 @@ class DeltaView : public BView
 		DeltaView(BRect frame, char *name); 
 };
 
+#endif /* __DELTAVIEW_H */

@@ -15,12 +15,12 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
+#ifndef __CONTROLVIEW_H
+#define __CONTROLVIEW_H
 
-
-
-#pragma once
 
 #include <View.h>
+#include <Button.h>
 
 
 #define NUM_BUTTONS 3
@@ -41,4 +41,4 @@ class ControlView : public BView
 		BButton *stopButton, *aboutButton, *resetButton;
 };
 
-
+#endif /* __CONTROLVIEW_H */
