@@ -2,10 +2,6 @@ Conway
 ====
 ©1998  Alex Chamberlain
 
-Email: chambera@cs.pdx.edu
-
-Website: http://www.cs.pdx.edu/~chambera
-
 ![Screenshot](screenshot.png)
 
 This is another implementation of Conway's Game of Life (a simple but fascinating artificial-life simulation).  Conway differs from the "Life" program included with BeOS in two ways: first, it runs in a window, not full-screen, so you can keep it open in the background; and second, it provides a "delta" display showing how the board has 
