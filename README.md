@@ -1,7 +1,8 @@
 Conway
+====
 ©1998  Alex Chamberlain
-chambera@cs.pdx.edu
-http://www.cs.pdx.edu/~chambera
+
+![Screenshot](screenshot.png)
 
 This is another implementation of Conway's Game of Life (a simple but fascinating artificial-life simulation).  Conway differs from the "Life" program included with BeOS in two ways: first, it runs in a window, not full-screen, so you can keep it open in the background; and second, it provides a "delta" display showing how the board has 
 changed over time. I think the combination of the current board and delta displays is kind of fun to watch (even hypnotic if you're in the mood).
@@ -9,6 +10,7 @@ changed over time. I think the combination of the current board and delta displa
 The source is provided under the GPL (GNU General Public License).  I'd be interested in seeing any improvements to the program—I know my algorithms are pretty naive.  
 
 Revision History
+----
 
 0.9a—May 5, 1998—Priority problem fixed (the computation thread is
                      no longer set to higher priority than the
